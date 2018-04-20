@@ -1,7 +1,7 @@
 {
-    "name": "how-not-to-destroy-your-ether",
+    "name": "how-to-not-destroy-your-ether",
     "version": "0.1.0",
-    "description": "The source code for the \"How not to Destroy Your Ether\" talk",
+    "description": "The source code for the \"How to not Destroy Your Ether\" talk",
     "repository": {
         "type": "git",
         "url": "git@github.com:blockchain-academy/how-not-to-destroy-your-ether.git"
