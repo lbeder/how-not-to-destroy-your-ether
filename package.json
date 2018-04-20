@@ -1,0 +1,38 @@
+{
+    "name": "how-not-to-destroy-your-ether",
+    "version": "0.1.0",
+    "description": "The source code for the \"How not to Destroy Your Ether\" talk",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:blockchain-academy/how-not-to-destroy-your-ether.git"
+    },
+    "author": "Leonid Beder",
+    "license": "MIT",
+    "main": "truffle-config.js",
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-register": "^6.26.0",
+        "bignumber.js": "^6.0.0",
+        "chai": "^4.1.2",
+        "chai-as-promised": "^7.1.1",
+        "chai-bignumber": "^2.0.2",
+        "truffle": "4.1.5",
+        "zeppelin-solidity": "1.8.0"
+    },
+    "devDependencies": {
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "babel-preset-stage-3": "^6.24.1",
+        "dirty-chai": "^2.0.1",
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-import": "^2.11.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.7.0",
+        "ganache-cli": "^6.1.0",
+        "mocha-lcov-reporter": "^1.3.0",
+        "solidity-coverage": "0.4.15",
+        "web3-eth-abi": "^1.0.0-beta.34"
+    }
+}
