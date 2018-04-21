@@ -6,7 +6,7 @@ contract Reward {
 
     mapping(address => uint256) public rewards;
 
-    event Rewarded(address indexed winner, uint256 value);
+    event Awarded(address indexed winner, uint256 value);
 
     modifier onlyOwner {
         require(msg.sender == owner);
@@ -25,6 +25,6 @@ contract Reward {
     function claimReward(uint256 _reward) public {
         rewards[msg.sender] -= _reward;
 
-        emit Rewarded(msg.sender, _reward);
+        emit Awarded(msg.sender, _reward);
     }
 }
