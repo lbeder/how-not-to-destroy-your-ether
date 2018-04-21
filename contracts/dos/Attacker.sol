@@ -4,7 +4,6 @@ import "./Auction.sol";
 
 
 contract Attacker {
-
     Auction public auction;
 
     function Attacker(address _auction) public {
