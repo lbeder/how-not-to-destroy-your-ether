@@ -12,6 +12,9 @@ contract Attacker {
         auction = Auction(_auction);
     }
 
+    // function() public payable {
+    // }
+
     function bid() public payable {
         auction.bid.value(msg.value)();
     }
