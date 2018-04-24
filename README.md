@@ -2,7 +2,7 @@
 
 In this repository, you'll find the source code and material of our [How to not Destroy Your Ether](https://www.facebook.com/events/1525826274210212/) event.
 
-You can find the slides of the talk here: [How to not Destroy Your Ether - Slides](TBD).
+You can find the slides of the talk here: [How to not Destroy Your Ether - Slides](https://docs.google.com/presentation/d/1Vr_pbAQ7rweDs5CpUi0g7jxZCIzpn_I3Bj8AtFeJouo).
 
 ![How to not Destroy Your Ether](images/event.jpg)
 
