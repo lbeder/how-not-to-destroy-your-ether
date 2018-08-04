@@ -1,4 +1,4 @@
-pragma solidity 0.4.21;
+pragma solidity 0.4.24;
 
 
 contract Charity {
@@ -13,7 +13,7 @@ contract Charity {
         _;
     }
 
-    function Charity() public {
+    constructor() public {
         setOwner(msg.sender);
     }
 

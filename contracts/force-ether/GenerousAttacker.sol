@@ -1,10 +1,10 @@
-pragma solidity 0.4.21;
+pragma solidity 0.4.24;
 
 
 contract GenerousAttacker {
     address public target;
 
-    function GenerousAttacker(address _target) public {
+    constructor(address _target) public {
         target = _target;
     }
 

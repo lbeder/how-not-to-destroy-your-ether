@@ -1,4 +1,4 @@
-pragma solidity 0.4.21;
+pragma solidity 0.4.24;
 
 import "./Auction.sol";
 
@@ -6,7 +6,7 @@ import "./Auction.sol";
 contract Attacker {
     Auction public auction;
 
-    function Attacker(address _auction) public {
+    constructor(address _auction) public {
         require(_auction != address(0));
 
         auction = Auction(_auction);
