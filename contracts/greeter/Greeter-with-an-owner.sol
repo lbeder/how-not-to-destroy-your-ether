@@ -1,4 +1,4 @@
-pragma solidity 0.4.21;
+pragma solidity 0.4.24;
 
 
 contract Greeter {
@@ -11,7 +11,7 @@ contract Greeter {
         _;
     }
 
-    function Greeter(string _greeting) public {
+    constructor(string _greeting) public {
         owner = msg.sender;
 
         setGreeting(_greeting);

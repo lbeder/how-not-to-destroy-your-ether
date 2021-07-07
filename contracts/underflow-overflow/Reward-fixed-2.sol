@@ -1,4 +1,4 @@
-pragma solidity 0.4.21;
+pragma solidity 0.4.24;
 
 import "./SafeMath.sol";
 
@@ -18,7 +18,7 @@ contract Reward {
         _;
     }
 
-    function Reward() public {
+    constructor() public {
         owner = msg.sender;
     }
 

@@ -1,4 +1,4 @@
-pragma solidity 0.4.21;
+pragma solidity 0.4.24;
 
 import "./Bank.sol";
 
@@ -7,7 +7,7 @@ contract Robber {
     Bank public bank;
     bool public attacking = false;
 
-    function Robber(address _bank) public {
+    constructor(address _bank) public {
         require(_bank != address(0));
 
         bank = Bank(_bank);

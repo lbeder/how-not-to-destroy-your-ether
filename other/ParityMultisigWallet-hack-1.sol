@@ -61,6 +61,7 @@ contract WalletAbi {
   function confirm(bytes32 _h) returns (bool o_success);
 }
 
+
 contract WalletLibrary is WalletEvents {
   // TYPES
 

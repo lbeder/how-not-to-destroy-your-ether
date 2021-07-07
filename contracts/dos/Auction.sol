@@ -1,11 +1,11 @@
-pragma solidity 0.4.21;
+pragma solidity 0.4.24;
 
 
 contract Auction {
     address public currentLeader;
     uint256 public highestBid;
 
-    function Auction() public {
+    constructor() public {
         currentLeader = msg.sender;
         highestBid = 0;
     }

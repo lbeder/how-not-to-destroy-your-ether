@@ -1,10 +1,10 @@
-pragma solidity 0.4.21;
+pragma solidity 0.4.24; // Solidity version to use
 
 
 contract Greeter {
     string public greeting;
 
-    function Greeter(string _greeting) public {
+    constructor(string _greeting) public {
         setGreeting(_greeting);
     }
 
